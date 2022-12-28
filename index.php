@@ -29,9 +29,12 @@ if ($result === FALSE) {
            htmlspecialchars(curl_error($curl)))
            ;
 }
+
+
 curl_close($curl);
 
 
 
 echo "Other process";
+
  ?>
