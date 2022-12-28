@@ -31,4 +31,7 @@ if ($result === FALSE) {
 }
 curl_close($curl);
 
+
+
+echo "Other process";
  ?>
